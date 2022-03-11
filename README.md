@@ -1,6 +1,10 @@
 # WHAT IS IT?
 
-A tiny single binary HTTP file server designed for serving media files for easy access in other projects.
+A tiny single binary HTTP file server designed for serving media files for easy access in other projects implemented in Docker. Using the compose configuration below files in the playlists, xmltv, and extras folders will be served at port 22000.
+
+Ex: "http://ipaddress:22000/playlists"
+
+Please note that this is simply a Docker implementation of the server project created by sgreben. The server project itself can be found at the link below.
 
 # COMPOSE
 
