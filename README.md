@@ -16,7 +16,7 @@ services:
       - /path/to/xmltv:/xmltv
       - /path/to/extras:/extras
     ports:
-      - 99000:8080
+      - 22000:8080
 ```
 
 # CREDITS AND SOURCES
