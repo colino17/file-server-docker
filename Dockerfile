@@ -18,4 +18,4 @@ VOLUME /playlists
 VOLUME /xmltv
 
 # COMMAND
-CMD ["http-file-server", "/extras=/extras" "/playlists=/playlists" "/xmltv=/xmltv"]
+CMD ["http-file-server", "/extras=/extras", "/playlists=/playlists", "/xmltv=/xmltv"]
